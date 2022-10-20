@@ -4,7 +4,9 @@ import com.example.bakeryproduct.model.Product;
 import com.example.bakeryproduct.model.Type;
 import org.springframework.data.jpa.repository.JpaRepository;
 
+import java.util.List;
+
 public interface ProductRepository extends JpaRepository<Product,Long> {
-    Product findProductByType(Type type);
-    Product findProductByName(String name);
+    List<Product> findProductByType(Type type);
+    List<Product> findProductByName(String name);
 }
