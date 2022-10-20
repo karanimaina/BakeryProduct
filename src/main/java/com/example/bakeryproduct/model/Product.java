@@ -1,8 +1,11 @@
 package com.example.bakeryproduct.model;
 
+import lombok.AllArgsConstructor;
+
 import javax.persistence.Entity;
 import javax.persistence.Enumerated;
 @Entity
+@AllArgsConstructor
 public class Product {
     private long id;
     private String name;
