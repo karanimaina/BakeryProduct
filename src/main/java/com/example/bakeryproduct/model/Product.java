@@ -18,7 +18,7 @@ public class Product {
     private long id;
     private String name;
     private String quantity;
-    @Enumerated
+    @Enumerated(EnumType.STRING)
     private Type type;
     private String price;
     private String Description;
