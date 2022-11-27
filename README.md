@@ -4,10 +4,11 @@ The REST API to the bakery product  application  is described below.
 
 ## Create a new product
 
-### Request`POST http://localhost:8087/api/add/product'
+### Request 
 
-
-{   
+    'POST http://localhost:8087/api/add/product'
+    
+    
     curl -i -H 'Accept: application/json' -d 
     "name":"Lcd display",
     "brand":"samsung",
@@ -15,9 +16,10 @@ The REST API to the bakery product  application  is described below.
     "sellingPrice":"200",
     "discountPrice":"30",
     "percentageDiscount":"5"
+    
 
 
-### Response`
+### Response
 
     HTTP/1.1 201 Created
     Date: 2022-11-27T08:40:01.759+00:00
@@ -47,7 +49,7 @@ The REST API to the bakery product  application  is described below.
 ## Add product details to product
 ### Request
 
-`POST http://localhost:8087/api/add/product/details/1`
+   `POST http://localhost:8087/api/add/product/details/1`
 
     curl -i -H 'Accept: application/json' -d 
     "businessInfo":"mariam cakes and butter",
@@ -98,8 +100,7 @@ The REST API to the bakery product  application  is described below.
 
 ### Request 
 
-    GET  http://localhost:8087/api/get/all/product`
-    curl -i -H 'Accept: application/json '    
+    GET  http://localhost:8087/api/get/all/product  curl -i -H 'Accept: application/json '    
 
 ### Response
 
@@ -133,8 +134,7 @@ The REST API to the bakery product  application  is described below.
 
 ### Request
 
-`GET "http://localhost:8087/api/update/poduct/dto
-  curl -i -H 'Accept: application/json' http://localhost:8087/api/update/poduct/dto
+`GET "http://localhost:8087/api/update/poduct/dto curl -i -H 'Accept: application/json' http://localhost:8087/api/update/poduct/dto
 
 ### Response
 
