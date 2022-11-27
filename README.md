@@ -6,8 +6,8 @@ The REST API to the bakery product  application  is described below.
 
 ### Request
 
-`POST http://localhost:8087/api/add/product`
-
+`POST http://localhost:8087/api/add/product
+{   
     curl -i -H 'Accept: application/json' -d 
     "name":"Lcd display",
     "brand":"samsung",
@@ -98,9 +98,8 @@ The REST API to the bakery product  application  is described below.
 
 ### Request 
 
-GET  http://localhost:8087/api/get/all/product`
-
-    curl -i -H 'Accept: application/json'    
+    GET  http://localhost:8087/api/get/all/product`
+    curl -i -H 'Accept: application/json '    
 
 ### Response
 
@@ -166,7 +165,7 @@ GET  http://localhost:8087/api/get/all/product`
             "availability": "AVAILABLE",
             "sellingPrice": "200",
             "discountPrice": "30",
-            "percentageDiscount": "5",
+            "percentageDiscount": "5", curl -i -H 'Accept: application/json
             "productDetails": null,
             "postedDate": "2022-11-27T08:40:01.759+00:00"
         }
