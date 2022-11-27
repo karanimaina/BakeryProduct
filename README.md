@@ -7,7 +7,7 @@ The REST API to the bakery product  application  is described below.
 ### Request
 
 
-`POST http://localhost:8087/api/add/product
+`POST http://localhost:8087/api/add/product'
 
 
 {   
