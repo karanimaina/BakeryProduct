@@ -4,10 +4,7 @@ The REST API to the bakery product  application  is described below.
 
 ## Create a new product
 
-### Request
-
-
-`POST http://localhost:8087/api/add/product'
+### Request`POST http://localhost:8087/api/add/product'
 
 
 {   
