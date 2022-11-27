@@ -6,7 +6,10 @@ The REST API to the bakery product  application  is described below.
 
 ### Request
 
+
 `POST http://localhost:8087/api/add/product
+
+
 {   
     curl -i -H 'Accept: application/json' -d 
     "name":"Lcd display",
