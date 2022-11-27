@@ -26,7 +26,7 @@ The REST API to the bakery product  application  is described below.
     Content-Type: application/json
     Content-Length: 36
     
-{
+    {
     "status": 201,
     "data": {
         "id": 1,
