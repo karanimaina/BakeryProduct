@@ -134,11 +134,12 @@ The REST API to the bakery product  application  is described below.
 
 ### Request
 
-`GET "http://localhost:8087/api/update/poduct/dto curl -i -H 'Accept: application/json' http://localhost:8087/api/update/poduct/dto
-
-### Response
-
-    "status": 200,
+    `GET "http://localhost:8087/api/update/poduct/dto curl -i -H 'Accept: application/json' http://localhost:8087/api/update/poduct/dto
+    
+    ### Response
+    
+    
+     "status": 200,
     "data": [
             "name": "Lcd display",
             "brand": "samsung",
