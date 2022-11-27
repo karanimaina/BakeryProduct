@@ -17,7 +17,7 @@ The REST API to the bakery product  application  is described below.
     "percentageDiscount":"5"
 
 
-### Response
+### Response`
 
     HTTP/1.1 201 Created
     Date: 2022-11-27T08:40:01.759+00:00
@@ -96,9 +96,9 @@ The REST API to the bakery product  application  is described below.
 
 ## Get All Products
 
-### Request
+### Request 
 
-`GET  http://localhost:8087/api/get/all/product`
+GET  http://localhost:8087/api/get/all/product`
 
     curl -i -H 'Accept: application/json'    
 
@@ -134,11 +134,14 @@ The REST API to the bakery product  application  is described below.
 
 ### Request
 
-`GET "http://localhost:8087/api/update/poduct/dto`
-36
-    curl -i -H 'Accept: application/json' http://localhost:8087/api/update/poduct/dto
+`GET "http://localhost:8087/api/update/poduct/dto
+  curl -i -H 'Accept: application/json' http://localhost:8087/api/update/poduct/dto
 
-### Response"name": "Lcd display",
+### Response
+
+    "status": 200,
+    "data": [
+            "name": "Lcd display",
             "brand": "samsung",
             "availability": "AVAILABLE",
             "sellingPrice": "200",
