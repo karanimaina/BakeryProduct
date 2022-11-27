@@ -67,7 +67,7 @@ The REST API to the bakery product  application  is described below.
     Content-Type: application/json
     Content-Length: 36
     
-{
+    {
     "status": 201,
     "data": {
         "id": 1,
@@ -111,8 +111,7 @@ The REST API to the bakery product  application  is described below.
     Content-Type: application/json
     Content-Length: 2
     
-    
-   {
+    {
     "status": 200,
     "data": [
         {
@@ -136,7 +135,7 @@ The REST API to the bakery product  application  is described below.
 ### Request
 
 `GET "http://localhost:8087/api/update/poduct/dto`
-
+36
     curl -i -H 'Accept: application/json' http://localhost:8087/api/update/poduct/dto
 
 ### Response"name": "Lcd display",
@@ -153,8 +152,8 @@ The REST API to the bakery product  application  is described below.
     Connection: close
     Content-Type: application/json
     Content-Length: 36
-
-{
+    
+    {
     "status": 200,
     "data": [
         {
@@ -213,7 +212,7 @@ The REST API to the bakery product  application  is described below.
 
 ### Delete a product
 
-`DELETE `http://localhost:8087/delete/product/1`
+`DELETE http://localhost:8087/delete/product/1`
 
     curl -i -H 'Accept: application/json'http://localhost:8087/delete/product/1
 
